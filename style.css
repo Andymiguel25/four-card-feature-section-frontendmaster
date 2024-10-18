@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Poppins;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* height: 100vh; */
+    background-color: aliceblue;
+}
+
+#mainBox{
+   width: 1350px; 
+   height: 1000px;
+   background-color: white;
+   text-align: center;
+   padding: 20px;
+   margin: 30px;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
+#header1{
+    color: rgb(181,181,181);
+    font-size: 1.3rem;
+    font-weight:normal;
+}
+span{
+    font-weight: bold;
+    color: black;
+}
+p{
+    color: rgb(181,181,181);
+}
+
+/* arranging the boxes in a flexbox */
+#boxContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+
+/* first box styling */
+#firstBox{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    text-align: start;
+    padding: 20px;
+    border-top: 5px solid rgb(112,199,196);
+    align-self: center;
+}
+#firstBox img{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+
+
+/* second box styling */
+#secondBox{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    text-align: start;
+    padding: 20px;
+    border-top: 5px solid rgb(202,123,131);
+    margin-bottom: 20px;
+}
+#secondBox img{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+
+/* styling last box */
+#lastBox{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    text-align: start;
+    padding: 20px;
+    border-top: 5px solid rgb(225,197,149 );
+}
+#lastBox img{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+
+/* styling third box */
+#thirdBox{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    position: relative;
+    text-align: start;
+    padding: 20px;
+    border-top: 5px solid rgb(170,205,227);
+}
+#thirdBox img{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+
+
+
+
+
+
+@media (max-width:955px) {
+    #mainBox{
+        height: 1650px;
+     }
+
+}
